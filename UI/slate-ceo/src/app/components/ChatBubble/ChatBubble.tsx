@@ -14,7 +14,7 @@ const ChatBubble = (props: ChatBubbleProps) => {
     >
       {props.messageDisplayType === "system" ? (
         <div
-          className="p-3 bg-slate-300  inline-block rounded-lg max-w-96 "
+          className="p-3 bg-slate-300  inline-block rounded-lg max-w-96 overflow-hidden"
           style={{ borderTopLeftRadius: "0px" }}
         >
           <p className="w-full inline-block">{props.message}</p>
